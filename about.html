@@ -3,31 +3,199 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Abhishek</title>
+  <meta name="description" content="About Abhishek – Class 12 student, aspiring developer and JEE aspirant.">
+  <title>Abhishek | About Me</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1 class="logo">Abhishek</h1>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m Abhishek, exploring Python, SEO writing, and web development. I enjoy building simple websites and experimenting with AI tools.
-    </p>
+<header>
+  <nav>
+    <h1 class="logo">Abhi<span>.</span></h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="seo-blog.html">Blog</a></li>
+      <li><a href="math-solver.html">Math Tool</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<div class="page-content">
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <span class="section-label">Who I Am</span>
+    <h1 class="hero-title" style="font-size:clamp(2rem,5vw,4rem);">About <span class="highlight">Me</span></h1>
+    <p style="color:var(--text-muted);max-width:520px;margin:1rem auto 0;">Student · Developer · Writer · JEE Aspirant</p>
+  </div>
+
+  <!-- INTRO -->
+  <section>
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr 2fr;gap:3rem;align-items:start;">
+
+        <!-- Profile Card -->
+        <div class="reveal">
+          <div class="card" style="text-align:center;padding:2.5rem 2rem;">
+            <div style="width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));margin:0 auto 1.25rem;display:flex;align-items:center;justify-content:center;font-size:2.5rem;">👨‍💻</div>
+            <h3 style="color:var(--white);margin-bottom:0.25rem;">Abhishek</h3>
+            <p style="font-size:0.85rem;margin-bottom:1.25rem;">Class 12 | CBSE</p>
+            <div style="display:flex;flex-direction:column;gap:0.5rem;">
+              <span class="tag" style="display:block;text-align:center;">📍 India</span>
+              <span class="tag tag-green" style="display:block;text-align:center;">✓ Open to Freelance</span>
+              <span class="tag tag-pink" style="display:block;text-align:center;">🎯 JEE 2025–26</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bio -->
+        <div class="reveal delay-1">
+          <p class="section-label">My Story</p>
+          <h2 class="section-title">Coding &amp; Studying — Together</h2>
+          <p style="margin-bottom:1rem;">I'm Abhishek, a Class 12 student from India who fell in love with building things on the web. It started with a simple HTML page and quickly turned into a full portfolio of projects.</p>
+          <p style="margin-bottom:1rem;">Alongside my passion for coding, I'm also preparing for JEE — one of India's most competitive engineering entrance exams. Physics, Chemistry, and Maths are my daily companions, both in textbooks and in the code I write.</p>
+          <p style="margin-bottom:2rem;">I believe every line of code teaches something new. This website is my learning journal — publicly built and always improving.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="projects.html" class="btn btn-primary">My Projects</a>
+            <a href="contact.html" class="btn btn-outline">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2026 Abhishek | Built with ❤️ using HTML, CSS & JS</p>
-  </footer>
+  <!-- SKILLS -->
+  <section class="skills-section" style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+    <div class="container">
+      <p class="section-label">Skills</p>
+      <h2 class="section-title">What I Know</h2>
+      <div class="grid-2">
+
+        <div class="card reveal">
+          <h3 style="color:var(--white);margin-bottom:1.25rem;font-size:1.1rem;">💻 Technical Skills</h3>
+          <div class="skill-item">
+            <span>HTML5</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="80%" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>CSS3</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="72%" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>JavaScript</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="55%" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>SEO Writing</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="70%" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Git / GitHub</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="45%" style="width:0%"></div></div>
+          </div>
+        </div>
+
+        <div class="card reveal delay-2">
+          <h3 style="color:var(--white);margin-bottom:1.25rem;font-size:1.1rem;">📚 Academic Skills</h3>
+          <div class="skill-item">
+            <span>Mathematics</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="85%" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Physics</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="78%" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Chemistry</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="70%" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Problem Solving</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="80%" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Content Writing</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="75%" style="width:0%"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY TIMELINE -->
+  <section>
+    <div class="container" style="max-width:700px;">
+      <p class="section-label">My Journey</p>
+      <h2 class="section-title">How I Got Here</h2>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <p class="timeline-year">2023</p>
+          <h4 class="timeline-title">Started Learning HTML &amp; CSS</h4>
+          <p class="timeline-desc">Built my first ever webpage — a simple "Hello World" site that looked terrible but felt amazing.</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-year">2024</p>
+          <h4 class="timeline-title">Learned JavaScript &amp; SEO</h4>
+          <p class="timeline-desc">Added interactivity to projects and started writing SEO-optimized blog articles as a side skill.</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-year">2025</p>
+          <h4 class="timeline-title">Started Freelancing</h4>
+          <p class="timeline-desc">Began taking small freelance writing and web projects. Also started serious JEE preparation.</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-year">2026</p>
+          <h4 class="timeline-title">This Portfolio</h4>
+          <p class="timeline-desc">Launched this professional portfolio to showcase projects, skills, and study materials — all in one place.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERESTS -->
+  <section style="background:var(--bg2);border-top:1px solid var(--border);">
+    <div class="container">
+      <p class="section-label">Interests</p>
+      <h2 class="section-title">What Drives Me</h2>
+      <div class="grid-4">
+        <div class="card reveal" style="text-align:center;padding:1.75rem 1.25rem;">
+          <div style="font-size:2rem;margin-bottom:0.75rem;">🧮</div>
+          <strong style="color:var(--white);">Mathematics</strong>
+          <p style="font-size:0.85rem;margin-top:0.25rem;">Calculus, Algebra, Coordinate Geometry</p>
+        </div>
+        <div class="card reveal delay-1" style="text-align:center;padding:1.75rem 1.25rem;">
+          <div style="font-size:2rem;margin-bottom:0.75rem;">⚛️</div>
+          <strong style="color:var(--white);">Physics</strong>
+          <p style="font-size:0.85rem;margin-top:0.25rem;">Mechanics, Electrostatics, Optics</p>
+        </div>
+        <div class="card reveal delay-2" style="text-align:center;padding:1.75rem 1.25rem;">
+          <div style="font-size:2rem;margin-bottom:0.75rem;">💻</div>
+          <strong style="color:var(--white);">Web Dev</strong>
+          <p style="font-size:0.85rem;margin-top:0.25rem;">Building fast, clean websites</p>
+        </div>
+        <div class="card reveal delay-3" style="text-align:center;padding:1.75rem 1.25rem;">
+          <div style="font-size:2rem;margin-bottom:0.75rem;">✍️</div>
+          <strong style="color:var(--white);">Content Writing</strong>
+          <p style="font-size:0.85rem;margin-top:0.25rem;">SEO blogs &amp; articles</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 <strong>Abhishek</strong> — Built with ❤️ using HTML, CSS &amp; JS &nbsp;|&nbsp; <a href="contact.html">Contact Me</a></p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
